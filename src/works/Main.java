@@ -15,7 +15,7 @@ public class Main {
 //        mes1.setApellido("Ayaren");
 //        mes1.setRol("Vtuber");
 //        System.out.println("El es: " + mes1.getNombre() + " , " + mes1.getApellido() + " , " + mes1.getRol());
-        String casilla = JOptionPane.showInputDialog("Ingresa nombre tu vtuber");
+        String casilla = JOptionPane.showInputDialog("Ingresa nombre de tu vtuber");
         mes.setNombre(casilla);
         String apellido = JOptionPane.showInputDialog("Apellido");
         mes.setApellido(apellido);
